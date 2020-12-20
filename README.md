@@ -39,7 +39,7 @@ yourClassName: {
 ...
 ```
 
-Styles assigmnment in JS:
+Styles assignment in JS:
 ```js
 import { Display } from 'css-enums';
 
