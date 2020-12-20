@@ -92,13 +92,20 @@ const extractValues = (typeNode, scope) => (
 const firstUpper = (value) => value.charAt(0).toUpperCase() + value.slice(1);
 
 const enums = [];
+const enumNamesMap = {};
 
 for (const scope of scopesToInclude) {
   for (const memberName in statementsMap[scope]) {
-    enums.push({
-      name: firstUpper(memberName),
-      values: extractValues(statementsMap[scope][memberName].type).flat(10)
-    });
+    const name = firstUpper(memberName);
+
+    if (!enumNamesMap[name]) {
+      enums.push({
+        name,
+        values: extractValues(statementsMap[scope][memberName].type).flat(10)
+      });
+
+      enumNamesMap[name] = true;
+    }
   }
 }
 
