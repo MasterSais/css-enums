@@ -1,0 +1,30 @@
+{
+  "name": "css-enums",
+  "version": "1.0.0",
+  "description": "Typescript enums for css properties",
+  "scripts": {
+    "build": "node parser.js Properties ./node_modules/csstype/index.d.ts ./index.d.ts"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MasterSais/uvo.git"
+  },
+  "files": [
+    "index.d.ts"
+  ],
+  "keywords": [
+    "css",
+    "enum",
+    "typescript",
+    "cssinjs"
+  ],
+  "author": "Yauheni Zhestiannikau (MasterSais) <evgensvvv@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/MasterSais/uvo",
+  "devDependencies": {
+    "csstype": "3.0.5",
+    "typescript": "4.1.3"
+  },
+  "typings": "./index.d.ts"
+}
