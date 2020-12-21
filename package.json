@@ -1,6 +1,6 @@
 {
   "name": "css-enums",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Typescript enums for css properties",
   "scripts": {
     "build": "node parser.js Properties ./node_modules/csstype/index.d.ts ./index.d.ts"

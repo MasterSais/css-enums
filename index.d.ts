@@ -5418,7 +5418,6 @@ export const enum PointerEvents {
     All = "all",
     Auto = "auto",
     Fill = "fill",
-    Inherit = "inherit",
     None = "none",
     Painted = "painted",
     Stroke = "stroke",
@@ -6914,7 +6913,6 @@ export const enum Animation {
     Forwards = "forwards",
     None = "none",
     Infinite = "infinite",
-    None = "none",
     Paused = "paused",
     Running = "running"
 }
@@ -16743,7 +16741,6 @@ export const enum MozAnimation {
     Forwards = "forwards",
     None = "none",
     Infinite = "infinite",
-    None = "none",
     Paused = "paused",
     Running = "running"
 }
@@ -17069,7 +17066,6 @@ export const enum WebkitAnimation {
     Forwards = "forwards",
     None = "none",
     Infinite = "infinite",
-    None = "none",
     Paused = "paused",
     Running = "running"
 }
@@ -17979,7 +17975,6 @@ export const enum BoxDirection {
     Initial = "initial",
     Revert = "revert",
     Unset = "unset",
-    Inherit = "inherit",
     Normal = "normal",
     Reverse = "reverse"
 }
@@ -18021,7 +18016,6 @@ export const enum BoxOrient {
     Unset = "unset",
     BlockAxis = "block-axis",
     Horizontal = "horizontal",
-    Inherit = "inherit",
     InlineAxis = "inline-axis",
     Vertical = "vertical"
 }
@@ -18408,7 +18402,6 @@ export const enum KhtmlBoxDirection {
     Initial = "initial",
     Revert = "revert",
     Unset = "unset",
-    Inherit = "inherit",
     Normal = "normal",
     Reverse = "reverse"
 }
@@ -18450,7 +18443,6 @@ export const enum KhtmlBoxOrient {
     Unset = "unset",
     BlockAxis = "block-axis",
     Horizontal = "horizontal",
-    Inherit = "inherit",
     InlineAxis = "inline-axis",
     Vertical = "vertical"
 }
@@ -18598,7 +18590,6 @@ export const enum MozBoxDirection {
     Initial = "initial",
     Revert = "revert",
     Unset = "unset",
-    Inherit = "inherit",
     Normal = "normal",
     Reverse = "reverse"
 }
@@ -18624,7 +18615,6 @@ export const enum MozBoxOrient {
     Unset = "unset",
     BlockAxis = "block-axis",
     Horizontal = "horizontal",
-    Inherit = "inherit",
     InlineAxis = "inline-axis",
     Vertical = "vertical"
 }
@@ -19576,7 +19566,6 @@ export const enum OAnimation {
     Forwards = "forwards",
     None = "none",
     Infinite = "infinite",
-    None = "none",
     Paused = "paused",
     Running = "running"
 }
@@ -19756,7 +19745,6 @@ export const enum WebkitBoxDirection {
     Initial = "initial",
     Revert = "revert",
     Unset = "unset",
-    Inherit = "inherit",
     Normal = "normal",
     Reverse = "reverse"
 }
@@ -19798,7 +19786,6 @@ export const enum WebkitBoxOrient {
     Unset = "unset",
     BlockAxis = "block-axis",
     Horizontal = "horizontal",
-    Inherit = "inherit",
     InlineAxis = "inline-axis",
     Vertical = "vertical"
 }

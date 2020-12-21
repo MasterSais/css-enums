@@ -101,7 +101,7 @@ for (const scope of scopesToInclude) {
     if (!enumNamesMap[name]) {
       enums.push({
         name,
-        values: extractValues(statementsMap[scope][memberName].type).flat(10)
+        values: [...new Set(extractValues(statementsMap[scope][memberName].type).flat(10))]
       });
 
       enumNamesMap[name] = true;
