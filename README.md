@@ -23,8 +23,6 @@ CSS in JS example (with [JSS][jss-link] lib):
 ```js
 import { Border, Cursor, Color, BoxSizing, Width, Height, TextTransform } from 'css-enums';
 
-...
-
 yourClassName: {
   width: Width.Inherit,
   height: Height.Inherit,
@@ -36,22 +34,31 @@ yourClassName: {
   cursor: Cursor.Pointer
 }
 
-...
+// or import everything:
+
+import * as CSS from 'css-enums';
+
+yourClassName: {
+  width: CSS.Width.Inherit,
+  height: CSS.Height.Inherit,
+  border: [1, CSS.Border.Solid, CSS.Color.Red],
+  borderWidth: [0, 0, 1, 0],
+  boxSizing: CSS.BoxSizing.BorderBox,
+  padding: [4, 8],
+  textTransform: CSS.TextTransform.Capitalize,
+  cursor: CSS.Cursor.Pointer
+}
 ```
 
 Styles assignment in JS:
 ```js
 import { Display } from 'css-enums';
 
-...
-
 htmlElement.style.display = Display.None;
 
 // notice: afterwards typescript inlines every enum:
 
 htmlElement.style.display = 'none';
-
-...
 ```
 
 [jss-link]: https://cssinjs.org
