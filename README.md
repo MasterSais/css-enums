@@ -1,4 +1,4 @@
-# `Css Enums`
+# `CSS Enums`
 
 Typescript library aimed to provide enumerables for CSS properties mostly for CSSInJS utilities.
 Based on type definitions from [csstype][css-type-link] (v3.0.5) lib.
@@ -46,6 +46,10 @@ import { Display } from 'css-enums';
 ...
 
 htmlElement.style.display = Display.None;
+
+// notice: afterwards typescript inlines every enum:
+
+htmlElement.style.display = 'none';
 
 ...
 ```
